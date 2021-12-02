@@ -1,0 +1,101 @@
+[udiazquintero@ecs-pa-coding1 asgmt3]$ ./psynch 1 1 6
+Producer 1 produced 679
+Consumer 1 consumed 679
+Producer 1 produced 924
+Consumer 1 consumed 924
+Producer 1 produced 833
+Consumer 1 consumed 833
+Producer 1 produced 903
+Consumer 1 consumed 903
+Producer 1 produced 133
+Consumer 1 consumed 133
+Producer 1 produced 962
+Consumer 1 consumed 962
+[udiazquintero@ecs-pa-coding1 asgmt3]$
+
+--------------------------------------------------------
+
+[udiazquintero@ecs-pa-coding1 asgmt3]$ ./psynch 42 2 11
+Producer 26 produced 14
+Producer 39 produced 968
+Producer 37 produced 258
+Producer 26 produced 543
+Producer 21 produced 704
+Consumer 1 consumed 14
+Producer 29 produced 968
+Consumer 2 consumed 968
+Producer 40 produced 818
+Consumer 1 consumed 258
+Producer 14 produced 254
+Consumer 2 consumed 543
+Producer 39 produced 607
+Consumer 2 consumed 704
+Producer 25 produced 912
+Consumer 1 consumed 968
+Producer 36 produced 814
+Consumer 2 consumed 818
+Consumer 2 consumed 254
+Consumer 2 consumed 607
+Consumer 1 consumed 912
+Consumer 1 consumed 814
+[udiazquintero@ecs-pa-coding1 asgmt3]$
+
+---------------------------------------------------------
+
+[udiazquintero@ecs-pa-coding1 asgmt3]$ ./psynch 3 29 5
+Producer 1 produced 924
+Consumer 1 consumed 924
+Producer 2 produced 833
+Consumer 2 consumed 833
+Producer 3 produced 903
+Consumer 3 consumed 903
+Producer 2 produced 133
+Consumer 14 consumed 133
+Producer 3 produced 962
+Consumer 25 consumed 962
+[udiazquintero@ecs-pa-coding1 asgmt3]$
+
+---------------------------------------------------------
+
+[udiazquintero@ecs-pa-coding1 asgmt3]$ ./psynch 60 61 20
+Producer 58 produced 912
+Consumer 58 consumed 912
+Producer 27 produced 814
+Consumer 26 consumed 814
+Producer 59 produced 433
+Consumer 59 consumed 433
+Producer 44 produced 536
+Consumer 44 consumed 536
+Producer 40 produced 16
+Consumer 39 consumed 16
+Producer 39 produced 817
+Consumer 37 consumed 817
+Producer 45 produced 887
+Consumer 45 consumed 887
+Producer 46 produced 86
+Consumer 46 consumed 86
+Producer 22 produced 749
+Consumer 21 consumed 749
+Producer 30 produced 28
+Consumer 29 consumed 28
+Producer 38 produced 11
+Consumer 40 consumed 11
+Producer 15 produced 301
+Consumer 14 consumed 301
+Producer 26 produced 543
+Consumer 25 consumed 543
+Producer 57 produced 929
+Consumer 57 consumed 929
+Producer 36 produced 435
+Consumer 36 consumed 435
+Producer 36 produced 807
+Consumer 57 consumed 807
+Producer 10 produced 523
+Producer 13 produced 697
+Consumer 9 consumed 523
+Consumer 12 consumed 697
+Producer 23 produced 329
+Consumer 22 consumed 329
+Producer 39 produced 257
+Consumer 19 consumed 257
+[udiazquintero@ecs-pa-coding1 asgmt3]$
